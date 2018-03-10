@@ -2,4 +2,8 @@
 
 1. npm i 
 
-2. 
+2. install gulp globally npm i -g gulp
+
+3. run gulp
+
+4. git rmote set-url origin "repository name" 
