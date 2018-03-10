@@ -1,0 +1,31 @@
+@color1: blue;
+@font: helvetica;
+
+
+// you can take @color1 and apply it where ever you like
+.some-class {
+    color: @color1;
+    font-family: @font;
+    margin: 10px 5px;
+    border-radius: 5px;
+}
+
+.bigger-class {
+    .some-class;
+    margin-top: 5px;
+}
+
+
+// nested items. Can group out different sections. Can nest style so sections will be applied to certian sections
+div.col-xs-6{
+    .bigger-class:
+
+    p.ptag {
+
+    }
+    li {
+        // styles
+
+
+    }
+}
